@@ -1,0 +1,30 @@
+Desenvolvimento Web Full Stack • Relatório e Planejamento
+
+Relatório Técnico & Planejamento do Quiz
+Participantes: Rafael Teixeira e Kauã Freire  |  Repositório GitHub: [Link do Projeto]
+
+1. Explicação das Tecnologias: TypeScript, React e NestJS
+TypeScript: É um superset do JavaScript que adiciona tipagem estática opcional. Ele permite detectar erros ainda durante a codificação (em tempo de desenvolvimento), garantindo contratos de dados mais seguros e autocompletação avançada nas IDEs.
+React (Frontend): Biblioteca desenvolvida pelo Facebook focada na criação de interfaces de usuário reativas baseadas em componentes. Utiliza o conceito de Virtual DOM para otimizar a renderização e o gerenciamento de estados locais através de Hooks (como useState e useEffect).
+NestJS (Backend): Framework progressivo para Node.js construído com TypeScript. Inspirado em conceitos de Angular, utiliza uma arquitetura modular baseada em Módulos, Controllers (para rotas HTTP) e Providers/Services (regras de negócio), facilitando a injeção de dependências e a manutenção do código.
+2. Relatório Técnico Integrado
+
+
+Tecnologia	Papel Principal na Arquitetura	Vantagem Técnica
+TypeScript	Padronização de tipos em todo o sistema.	Segurança contra erros de tipo em tempo de execução.
+React	Interface visual interativa (Frontend).	Reatividade baseada em componentes reutilizáveis.
+NestJS	API REST, validações e regras (Backend).	Arquitetura modular organizada e injeção de dependências.
+3. Planejamento do Projeto (Quiz Educativo)
+
+O projeto consiste no desenvolvimento de um quiz interativo sobre a linguagem de programação TypeScript, que será realizado em duplas. Para a construção do projeto, serão utilizadas as tecnologias HTML, CSS e JavaScript, com o objetivo de criar uma aplicação simples, dinâmica e de fácil utilização.
+O quiz será composto por 20 questões sobre TypeScript, abordando conceitos importantes da linguagem, como tipos de dados, variáveis, funções, interfaces, classes, tipagem estática e diferenças entre JavaScript e TypeScript. As perguntas serão elaboradas com alternativas de múltipla escolha, permitindo que o participante selecione a resposta que considerar correta.
+O desenvolvimento será dividido entre os integrantes da dupla, de maneira que ambos participem da criação e organização do projeto. O HTML será responsável pela estrutura da página, o CSS pela estilização e aparência visual, e o JavaScript pela funcionalidade do quiz, incluindo a navegação entre as perguntas, a verificação das respostas, a contagem de pontos e a apresentação do resultado final.
+Durante a montagem, também serão realizados testes para verificar se todas as funcionalidades estão funcionando corretamente, se as perguntas e alternativas estão organizadas e se a pontuação está sendo calculada de forma adequada.
+Ao finalizar, o objetivo é apresentar um quiz funcional, organizado e interativo, que permita aos participantes testar seus conhecimentos sobre TypeScript de uma maneira prática e divertida, contribuindo também para o aprendizado e o desenvolvimento das habilidades de programação dos integrantes da dupla.
+
+Etapas de Desenvolvimento
+Etapa	Fase	Descrição da Atividade
+Fase 1	Repositório e GitHub	Criar repositório com o nome do projeto e disciplina, adicionar README e subir este relatório.
+Fase 2	Modelagem e Questões	Estruturar as 20 questões em TypeScript com tipagem estrita para perguntas e respostas.
+Fase 3	Backend (NestJS)	Implementar rotas de API para fornecer as perguntas e validar os resultados.
+Fase 4	Frontend (React)	Desenvolver a interface do quiz, navegação entre questões, cálculo de nota e tela de aprovação.
